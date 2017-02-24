@@ -18,20 +18,54 @@ header {
 .menu .main_pic {
 	margin-top: 9px;
 	margin-left: 68px;
+	float: left;
+	/*margin-right: 10px;*/
 }
-.menu a{
+.men_sp{
+	float: left;
+	list-style: none;
+
+
+}
+.men_sp li{
+	display: inline;
+	list-style: none;
+}
+
+.men_ref{
 	text-decoration: none;
 	color: white;
-	/*display: block;*/
+	
 	font-size: 12px;
+	font-weight: 300;
+	padding: 18px 15px 13px 15px;
+}
+.men_ref:hover{
+	background-color: #292929;
 }
 
 .info .adr {
 	border-radius: 0px;
-	padding: 10px;
+	padding: 7px;
+	border: 0px;
+	width: 207px;
+	font-weight: 300;
 }
 
 .info .get_go {
 	border-radius: 0px;
-	padding: 15px;
+	padding: 8px;
+	margin-right: 68px;
+	margin-top: 7px; 
+	background-color: #E7E7E7;
+	border: 0px;
+	font-weight: 300;
+}
+
+.mess{
+	background-color: #5BC0DE;
+	margin: 3px 60px 0 60px;
+	padding: 29px 20px 29px 20px;
+	color: white;
+	font-size: 13px;
 }
